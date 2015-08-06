@@ -1,17 +1,32 @@
+.DS_Store
 *.class
 *.log
 
 # sbt specific
-.cache
-.history
-.lib/
 dist/*
 target/
 lib_managed/
 src_managed/
+/.classpath
+/.project
+/.settings
 project/boot/
 project/plugins/project/
+project/project
+project/target
+
+logs
+tmp
+.cache
+/RUNNING_PID
+
+# Project specific
+journal/
+snapshots/
 
 # Scala-IDE specific
 .scala_dependencies
-.worksheet
+
+# idea specific
+.idea/*
+!.idea/dictionaries
